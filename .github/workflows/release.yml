@@ -12,6 +12,6 @@ jobs:
   steps:
     - uses: "demo-repo/action-automatic-releases@latest"
     with:
-    repo_token: "${{ secrets.GITHUB_TOKEN }}"
-    prerelease: false
+      repo_token: "${{ secrets.GITHUB_TOKEN }}"
+      prerelease: false
     
